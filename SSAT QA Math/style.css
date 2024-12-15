@@ -27,13 +27,14 @@
       top: 1rem;
       left: 10vw;
       width: 80vw;
-      height: 90vw;
+      height: auto;
       border-radius: 12px;
       padding: 1rem;
       transition: 1s;
       border: 3px solid black;
       border-top: none;
       border-left: none;
+      min-height: 90vh;
   }
   
   .front, .back {
@@ -167,3 +168,17 @@
     align-items: center;
     flex-direction: column;
   }
+
+
+@media (max-width: 400px) {
+  .overall-con button {
+    width: 50px;
+  }
+
+  .overall-con button i {
+    font-size: 3rem;
+}
+  .answer-content, .solution-content, .question-content {
+    font-size: 1.2rem !important;
+  } 
+}
