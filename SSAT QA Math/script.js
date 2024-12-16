@@ -354,6 +354,367 @@ const questions_bank = [
         answer: "The area is 60 square centimeters.",
         solution: "The formula for the area of a rectangle is \\(A = L \\times W\\),<br>where \\(L\\) is the length and \\(W\\) is the width.<br>Substitute \\(L = 12\\) and \\(W = 5\\): \\(A = 12 \\times 5 = 60\\)."
     },    
+    {
+    id: 41,
+    question: "If \\(5x + 4 = 19\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 3\\)",
+    solution: "Solve for \\(x\\): \\(5x + 4 = 19\\).<br>Subtract 4 from both sides: \\(5x = 15\\).<br>Divide by 5: \\(x = 3\\)."
+    },
+    {
+        id: 42,
+        question: "Simplify \\(8y - 3y + 6\\).",
+        answer: "The simplified expression is \\(5y + 6\\).",
+        solution: "Combine like terms:<br>\\(8y - 3y = 5y\\).<br>Final expression: \\(5y + 6\\)."
+    },
+    {
+        id: 43,
+        question: "What is the value of \\(\\frac{7}{9} - \\frac{2}{9}\\)?",
+        answer: "\\(\\frac{5}{9}\\)",
+        solution: "Subtract fractions with the same denominator: \\(\\frac{7 - 2}{9} = \\frac{5}{9}\\)."
+    },
+    {
+        id: 44,
+        question: "If the perimeter of a rectangle is 50 meters and its width is 10 meters, what is its length?",
+        answer: "The length is 15 meters.",
+        solution: "The formula for the perimeter of a rectangle is \\(P = 2L + 2W\\).<br>Substitute \\(P = 50\\) and \\(W = 10\\): \\(50 = 2L + 2(10)\\).<br>Simplify: \\(50 = 2L + 20\\).<br>Subtract 20: \\(30 = 2L\\).<br>Divide by 2: \\(L = 15\\)."
+    },
+    {
+        id: 45,
+        question: "What is \\(15\\%\\) of 200?",
+        answer: "\\(15\\%\\) of 200 is 30.",
+        solution: "To find \\(15\\%\\) of 200, multiply \\(200\\) by \\(0.15\\):<br>\\(200 \\times 0.15 = 30\\)."
+    },
+    {
+        id: 46,
+        question: "If a triangle has angles measuring 60°, 60°, and 60°, what type of triangle is it?",
+        answer: "It is an equilateral triangle.",
+        solution: "An equilateral triangle has all angles equal to 60° and all sides of the same length."
+    },
+    {
+        id: 47,
+        question: "What is the value of \\(4^3\\)?",
+        answer: "\\(4^3 = 64\\)",
+        solution: "The formula for exponents is \\(x^n = x \\times x \\times ...\\) (\\(n\\) times).<br>Calculate \\(4^3 = 4 \\times 4 \\times 4 = 64\\)."
+    },
+    {
+        id: 48,
+        question: "If the sum of two numbers is 18 and one number is 7, what is the other number?",
+        answer: "The other number is 11.",
+        solution: "Let the other number be \\(x\\).<br>\\(x + 7 = 18\\).<br>Subtract 7 from both sides: \\(x = 18 - 7 = 11\\)."
+    },
+    {
+        id: 49,
+        question: "Simplify \\(\\frac{6}{8}\\).",
+        answer: "\\(\\frac{6}{8} = \\frac{3}{4}\\)",
+        solution: "Simplify \\(\\frac{6}{8}\\) by dividing the numerator and denominator by their greatest common divisor (2):<br>\\(\\frac{6 \\div 2}{8 \\div 2} = \\frac{3}{4}\\)."
+    },
+    {
+        id: 50,
+        question: "If a cube has a volume of 64 cubic centimeters, what is the length of one side?",
+        answer: "The side length is 4 cm.",
+        solution: "The formula for the volume of a cube is \\(V = s^3\\),<br>where \\(s\\) is the side length.<br>Substitute \\(V = 64\\): \\(64 = s^3\\).<br>Find the cube root of \\(64\\): \\(s = 4\\)."
+    },
+    {
+        id: 51,
+        question: "If \\(2x + 7 = 15\\), what is the value of \\(x\\)?",
+        answer: "\\(x = 4\\)",
+        solution: "Solve for \\(x\\): \\(2x + 7 = 15\\).<br>Subtract 7 from both sides: \\(2x = 8\\).<br>Divide by 2: \\(x = 4\\)."
+    },
+    {
+        id: 52,
+        question: "Simplify \\(9a + 4 - 3a - 2\\).",
+        answer: "The simplified expression is \\(6a + 2\\).",
+        solution: "Combine like terms:<br>\\(9a - 3a = 6a\\).<br>\\(4 - 2 = 2\\).<br>Final expression: \\(6a + 2\\)."
+    },
+    {
+        id: 53,
+        question: "What is the value of \\(\\frac{2}{3} \\times \\frac{5}{7}\\)?",
+        answer: "\\(\\frac{10}{21}\\)",
+        solution: "Multiply fractions by multiplying the numerators and denominators:<br>\\(\\frac{2}{3} \\times \\frac{5}{7} = \\frac{2 \\times 5}{3 \\times 7} = \\frac{10}{21}\\)."
+    },
+    {
+        id: 54,
+        question: "If a triangle has a base of 9 units and a height of 4 units, what is its area?",
+        answer: "The area is 18 square units.",
+        solution: "The formula for the area of a triangle is \\(A = \\frac{1}{2} \\times \\text{Base} \\times \\text{Height}\\).<br>Substitute \\(\\text{Base} = 9\\) and \\(\\text{Height} = 4\\): \\(A = \\frac{1}{2} \\times 9 \\times 4 = 18\\)."
+    },
+    {
+        id: 55,
+        question: "What is the least common multiple (LCM) of 6 and 8?",
+        answer: "The LCM is 24.",
+        solution: "The multiples of 6 are \\(6, 12, 18, 24, ...\\).<br>The multiples of 8 are \\(8, 16, 24, ...\\).<br>The smallest common multiple is 24."
+    },
+    {
+        id: 56,
+        question: "If a car travels 240 miles in 6 hours, what is its average speed?",
+        answer: "The average speed is 40 miles per hour.",
+        solution: "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 240\\) and \\(\\text{Time} = 6\\): \\(\\frac{240}{6} = 40\\) miles per hour."
+    },
+    {
+        id: 57,
+        question: "If the sum of three numbers is 42 and two of the numbers are 15 and 18, what is the third number?",
+        answer: "The third number is 9.",
+        solution: "Let the third number be \\(x\\).<br>\\(15 + 18 + x = 42\\).<br>Add \\(15\\) and \\(18\\): \\(33 + x = 42\\).<br>Subtract 33 from both sides: \\(x = 9\\)."
+    },
+    {
+        id: 58,
+        question: "What is the value of \\(7^2\\)?",
+        answer: "\\(7^2 = 49\\)",
+        solution: "The formula for squaring a number is \\(x^2 = x \\times x\\).<br>Calculate \\(7^2 = 7 \\times 7 = 49\\)."
+    },
+    {
+        id: 59,
+        question: "Simplify \\(\\frac{12}{16}\\).",
+        answer: "\\(\\frac{3}{4}\\)",
+        solution: "Simplify \\(\\frac{12}{16}\\) by dividing the numerator and denominator by their greatest common divisor (4):<br>\\(\\frac{12 \\div 4}{16 \\div 4} = \\frac{3}{4}\\)."
+    },
+    {
+        id: 60,
+        question: "If a rectangle has an area of 48 square meters and a length of 8 meters, what is its width?",
+        answer: "The width is 6 meters.",
+        solution: "The formula for the area of a rectangle is \\(A = L \\times W\\).<br>Substitute \\(A = 48\\) and \\(L = 8\\): \\(48 = 8 \\times W\\).<br>Divide by 8: \\(W = 6\\)."
+    },
+    {
+        id: 61,
+        question: "If \\(3x - 5 = 16\\), what is the value of \\(x\\)?",
+        answer: "\\(x = 7\\)",
+        solution: "Solve for \\(x\\): \\(3x - 5 = 16\\).<br>Add 5 to both sides: \\(3x = 21\\).<br>Divide by 3: \\(x = 7\\)."
+    },
+    {
+        id: 62,
+        question: "Simplify \\(10m + 6 - 4m - 2\\).",
+        answer: "The simplified expression is \\(6m + 4\\).",
+        solution: "Combine like terms:<br>\\(10m - 4m = 6m\\).<br>\\(6 - 2 = 4\\).<br>Final expression: \\(6m + 4\\)."
+    },
+    {
+        id: 63,
+        question: "What is the value of \\(\\frac{5}{6} + \\frac{2}{6}\\)?",
+        answer: "\\(\\frac{7}{6}\\) or \\(1 \\frac{1}{6}\\)",
+        solution: "Add fractions with the same denominator:<br>\\(\\frac{5}{6} + \\frac{2}{6} = \\frac{5 + 2}{6} = \\frac{7}{6}\\).<br>Convert \\(\\frac{7}{6}\\) to a mixed number: \\(1 \\frac{1}{6}\\)."
+    },
+    {
+        id: 64,
+        question: "If a triangle has sides of length 3 cm, 4 cm, and 5 cm, what type of triangle is it?",
+        answer: "It is a right triangle.",
+        solution: "Check the Pythagorean theorem: \\(a^2 + b^2 = c^2\\),<br>where \\(c\\) is the longest side.<br>\\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\).<br>The triangle is a right triangle."
+    },
+    {
+        id: 65,
+        question: "What is the greatest common divisor (GCD) of 24 and 36?",
+        answer: "The GCD is 12.",
+        solution: "The factors of 24 are \\(1, 2, 3, 4, 6, 8, 12, 24\\).<br>The factors of 36 are \\(1, 2, 3, 4, 6, 9, 12, 18, 36\\).<br>The greatest common factor is \\(12\\)."
+    },
+    {
+        id: 66,
+        question: "If a car travels 90 kilometers in 2 hours, what is its average speed?",
+        answer: "The average speed is 45 kilometers per hour.",
+        solution: "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 90\\) and \\(\\text{Time} = 2\\): \\(\\frac{90}{2} = 45\\) kilometers per hour."
+    },
+    {
+        id: 67,
+        question: "If the average of four numbers is 20 and three of the numbers are 18, 22, and 16, what is the fourth number?",
+        answer: "The fourth number is 24.",
+        solution: "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 4: \\(20 \\times 4 = 80\\).<br>Sum of three numbers: \\(18 + 22 + 16 = 56\\).<br>Subtract: \\(80 - 56 = 24\\)."
+    },
+    {
+        id: 68,
+        question: "What is the value of \\(2^4\\)?",
+        answer: "\\(2^4 = 16\\)",
+        solution: "The formula for exponents is \\(x^n = x \\times x \\times ...\\) (\\(n\\) times).<br>Calculate \\(2^4 = 2 \\times 2 \\times 2 \\times 2 = 16\\)."
+    },
+    {
+        id: 69,
+        question: "Simplify \\(\\frac{18}{24}\\).",
+        answer: "\\(\\frac{3}{4}\\)",
+        solution: "Simplify \\(\\frac{18}{24}\\) by dividing the numerator and denominator by their greatest common divisor (6):<br>\\(\\frac{18 \\div 6}{24 \\div 6} = \\frac{3}{4}\\)."
+    },
+    {
+        id: 70,
+        question: "If a rectangle has an area of 72 square meters and a width of 9 meters, what is its length?",
+        answer: "The length is 8 meters.",
+        solution: "The formula for the area of a rectangle is \\(A = L \\times W\\).<br>Substitute \\(A = 72\\) and \\(W = 9\\): \\(72 = L \\times 9\\).<br>Divide by 9: \\(L = 8\\)."
+    },
+    {
+        id: 71,
+        question: "If \\(4x + 6 = 26\\), what is the value of \\(x\\)?",
+        answer: "\\(x = 5\\)",
+        solution: "Solve for \\(x\\): \\(4x + 6 = 26\\).<br>Subtract 6 from both sides: \\(4x = 20\\).<br>Divide by 4: \\(x = 5\\)."
+    },
+    {
+        id: 72,
+        question: "Simplify \\(7p - 3 + 5p + 9\\).",
+        answer: "The simplified expression is \\(12p + 6\\).",
+        solution: "Combine like terms:<br>\\(7p + 5p = 12p\\).<br>\\(-3 + 9 = 6\\).<br>Final expression: \\(12p + 6\\)."
+    },
+    {
+        id: 73,
+        question: "What is the value of \\(\\frac{5}{8} - \\frac{3}{8}\\)?",
+        answer: "\\(\\frac{2}{8}\\) or \\(\\frac{1}{4}\\)",
+        solution: "Subtract fractions with the same denominator:<br>\\(\\frac{5}{8} - \\frac{3}{8} = \\frac{5 - 3}{8} = \\frac{2}{8}\\).<br>Simplify \\(\\frac{2}{8}\\) by dividing by 2: \\(\\frac{1}{4}\\)."
+    },
+    {
+        id: 74,
+        question: "What is the perimeter of a rectangle with a length of 10 cm and a width of 6 cm?",
+        answer: "The perimeter is 32 cm.",
+        solution: "The formula for the perimeter of a rectangle is \\(P = 2L + 2W\\).<br>Substitute \\(L = 10\\) and \\(W = 6\\): \\(P = 2(10) + 2(6) = 20 + 12 = 32\\)."
+    },
+    {
+        id: 75,
+        question: "What is the least common multiple (LCM) of 9 and 12?",
+        answer: "The LCM is 36.",
+        solution: "The multiples of 9 are \\(9, 18, 27, 36, ...\\).<br>The multiples of 12 are \\(12, 24, 36, ...\\).<br>The smallest common multiple is 36."
+    },
+    {
+        id: 76,
+        question: "If a train travels 300 miles in 5 hours, what is its average speed?",
+        answer: "The average speed is 60 miles per hour.",
+        solution: "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 300\\) and \\(\\text{Time} = 5\\): \\(\\frac{300}{5} = 60\\) miles per hour."
+    },
+    {
+        id: 77,
+        question: "If the average of three numbers is 15 and two of the numbers are 10 and 20, what is the third number?",
+        answer: "The third number is 15.",
+        solution: "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 3: \\(15 \\times 3 = 45\\).<br>Sum of two numbers: \\(10 + 20 = 30\\).<br>Subtract: \\(45 - 30 = 15\\)."
+    },
+    {
+        id: 78,
+        question: "What is the value of \\(3^3\\)?",
+        answer: "\\(3^3 = 27\\)",
+        solution: "The formula for exponents is \\(x^n = x \\times x \\times ...\\) (\\(n\\) times).<br>Calculate \\(3^3 = 3 \\times 3 \\times 3 = 27\\)."
+    },
+    {
+        id: 79,
+        question: "Simplify \\(\\frac{20}{25}\\).",
+        answer: "\\(\\frac{4}{5}\\)",
+        solution: "Simplify \\(\\frac{20}{25}\\) by dividing the numerator and denominator by their greatest common divisor (5):<br>\\(\\frac{20 \\div 5}{25 \\div 5} = \\frac{4}{5}\\)."
+    },
+    {
+        id: 80,
+        question: "If a circle has a diameter of 14 cm, what is its circumference?",
+        answer: "The circumference is approximately 43.96 cm.",
+        solution: "The formula for the circumference of a circle is \\(C = \\pi d\\), where \\(d\\) is the diameter.<br>Substitute \\(d = 14\\): \\(C = \\pi \\times 14 \\approx 3.14 \\times 14 = 43.96\\)."
+    },    
+    {
+        id: 81,
+        question: "If \\(2x + 7 = 21\\), what is the value of \\(x\\)?",
+        answer: "\\(x = 7\\)",
+        solution: "Solve for \\(x\\): \\(2x + 7 = 21\\).<br>Subtract 7 from both sides: \\(2x = 14\\).<br>Divide by 2: \\(x = 7\\)."
+    },
+    {
+        id: 82,
+        question: "Simplify \\(5y + 3 - 2y - 8\\).",
+        answer: "The simplified expression is \\(3y - 5\\).",
+        solution: "Combine like terms:<br>\\(5y - 2y = 3y\\).<br>\\(3 - 8 = -5\\).<br>Final expression: \\(3y - 5\\)."
+    },
+    {
+        id: 83,
+        question: "What is the value of \\(\\frac{7}{12} + \\frac{5}{12}\\)?",
+        answer: "\\(\\frac{12}{12}\\) or \\(1\\)",
+        solution: "Add fractions with the same denominator:<br>\\(\\frac{7}{12} + \\frac{5}{12} = \\frac{7 + 5}{12} = \\frac{12}{12}\\).<br>Simplify: \\(\\frac{12}{12} = 1\\)."
+    },
+    {
+        id: 84,
+        question: "What is the area of a rectangle with a length of 8 meters and a width of 5 meters?",
+        answer: "The area is 40 square meters.",
+        solution: "The formula for the area of a rectangle is \\(A = L \\times W\\).<br>Substitute \\(L = 8\\) and \\(W = 5\\): \\(A = 8 \\times 5 = 40\\)."
+    },
+    {
+        id: 85,
+        question: "What is the greatest common divisor (GCD) of 18 and 27?",
+        answer: "The GCD is 9.",
+        solution: "The factors of 18 are \\(1, 2, 3, 6, 9, 18\\).<br>The factors of 27 are \\(1, 3, 9, 27\\).<br>The greatest common factor is \\(9\\)."
+    },
+    {
+        id: 86,
+        question: "If a bus travels 240 miles in 6 hours, what is its average speed?",
+        answer: "The average speed is 40 miles per hour.",
+        solution: "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 240\\) and \\(\\text{Time} = 6\\): \\(\\frac{240}{6} = 40\\) miles per hour."
+    },
+    {
+        id: 87,
+        question: "If the average of five numbers is 25 and four of the numbers are 20, 30, 25, and 35, what is the fifth number?",
+        answer: "The fifth number is 15.",
+        solution: "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 5: \\(25 \\times 5 = 125\\).<br>Sum of four numbers: \\(20 + 30 + 25 + 35 = 110\\).<br>Subtract: \\(125 - 110 = 15\\)."
+    },
+    {
+        id: 88,
+        question: "What is the value of \\(4^3\\)?",
+        answer: "\\(4^3 = 64\\)",
+        solution: "The formula for exponents is \\(x^n = x \\times x \\times ...\\) (\\(n\\) times).<br>Calculate \\(4^3 = 4 \\times 4 \\times 4 = 64\\)."
+    },
+    {
+        id: 89,
+        question: "Simplify \\(\\frac{16}{20}\\).",
+        answer: "\\(\\frac{4}{5}\\)",
+        solution: "Simplify \\(\\frac{16}{20}\\) by dividing the numerator and denominator by their greatest common divisor (4):<br>\\(\\frac{16 \\div 4}{20 \\div 4} = \\frac{4}{5}\\)."
+    },
+    {
+        id: 90,
+        question: "If a circle has a radius of 5 cm, what is its circumference?",
+        answer: "The circumference is approximately 31.4 cm.",
+        solution: "The formula for the circumference of a circle is \\(C = 2\\pi r\\), where \\(r\\) is the radius.<br>Substitute \\(r = 5\\): \\(C = 2 \\times \\pi \\times 5 \\approx 2 \\times 3.14 \\times 5 = 31.4\\)."
+    },
+    {
+        id: 91,
+        question: "If \\(3x - 4 = 14\\), what is the value of \\(x\\)?",
+        answer: "\\(x = 6\\)",
+        solution: "Solve for \\(x\\): \\(3x - 4 = 14\\).<br>Add 4 to both sides: \\(3x = 18\\).<br>Divide by 3: \\(x = 6\\)."
+    },
+    {
+        id: 92,
+        question: "Simplify \\(8a + 3 - 6a - 7\\).",
+        answer: "The simplified expression is \\(2a - 4\\).",
+        solution: "Combine like terms:<br>\\(8a - 6a = 2a\\).<br>\\(3 - 7 = -4\\).<br>Final expression: \\(2a - 4\\)."
+    },
+    {
+        id: 93,
+        question: "What is the value of \\(\\frac{9}{10} + \\frac{3}{10}\\)?",
+        answer: "\\(\\frac{12}{10}\\) or \\(\\frac{6}{5}\\)",
+        solution: "Add fractions with the same denominator:<br>\\(\\frac{9}{10} + \\frac{3}{10} = \\frac{9 + 3}{10} = \\frac{12}{10}\\).<br>Simplify \\(\\frac{12}{10}\\) by dividing by 2: \\(\\frac{6}{5}\\)."
+    },
+    {
+        id: 94,
+        question: "What is the perimeter of a square with a side length of 9 cm?",
+        answer: "The perimeter is 36 cm.",
+        solution: "The formula for the perimeter of a square is \\(P = 4s\\), where \\(s\\) is the side length.<br>Substitute \\(s = 9\\): \\(P = 4 \\times 9 = 36\\)."
+    },
+    {
+        id: 95,
+        question: "What is the least common multiple (LCM) of 8 and 14?",
+        answer: "The LCM is 56.",
+        solution: "The multiples of 8 are \\(8, 16, 24, 32, 40, 48, 56, ...\\).<br>The multiples of 14 are \\(14, 28, 42, 56, ...\\).<br>The smallest common multiple is 56."
+    },
+    {
+        id: 96,
+        question: "If a car travels 480 miles in 8 hours, what is its average speed?",
+        answer: "The average speed is 60 miles per hour.",
+        solution: "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 480\\) and \\(\\text{Time} = 8\\): \\(\\frac{480}{8} = 60\\) miles per hour."
+    },
+    {
+        id: 97,
+        question: "If the average of four numbers is 40 and three of the numbers are 35, 45, and 50, what is the fourth number?",
+        answer: "The fourth number is 30.",
+        solution: "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 4: \\(40 \\times 4 = 160\\).<br>Sum of three numbers: \\(35 + 45 + 50 = 130\\).<br>Subtract: \\(160 - 130 = 30\\)."
+    },
+    {
+        id: 98,
+        question: "What is the value of \\(2^5\\)?",
+        answer: "\\(2^5 = 32\\)",
+        solution: "The formula for exponents is \\(x^n = x \\times x \\times ...\\) (\\(n\\) times).<br>Calculate \\(2^5 = 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32\\)."
+    },
+    {
+        id: 99,
+        question: "Simplify \\(\\frac{24}{36}\\).",
+        answer: "\\(\\frac{2}{3}\\)",
+        solution: "Simplify \\(\\frac{24}{36}\\) by dividing the numerator and denominator by their greatest common divisor (12):<br>\\(\\frac{24 \\div 12}{36 \\div 12} = \\frac{2}{3}\\)."
+    },
+    {
+        id: 100,
+        question: "If a circle has a radius of 10 cm, what is its area?",
+        answer: "The area is approximately 314 square centimeters.",
+        solution: "The formula for the area of a circle is \\(A = \\pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 10\\): \\(A = \\pi \\times 10^2 = \\pi \\times 100 \\approx 3.14 \\times 100 = 314\\)."
+    }
+    
 ];
 
 
