@@ -1587,6 +1587,737 @@ const questions_bank = [
     solution:
       "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 10\\): \\(A = pi \times 10^2 = pi \times 100 \\approx 3.14 \times 100 = 314.16\\).",
   },
+  {
+    id: 201,
+    question: "If \\(3x + 5 = 20\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 5\\)",
+    solution:
+      "Solve for \\(x\\): \\(3x + 5 = 20\\).<br>Subtract 5 from both sides: \\(3x = 15\\).<br>Divide by 3: \\(x = 5\\).",
+  },
+  {
+    id: 202,
+    question: "Simplify \\(6x - 2 + 4x + 8\\).",
+    answer: "The simplified expression is \\(10x + 6\\).",
+    solution:
+      "Combine like terms:<br>\\(6x + 4x = 10x\\).<br>\\(-2 + 8 = 6\\).<br>Final expression: \\(10x + 6\\).",
+  },
+  {
+    id: 203,
+    question: "What is the value of \\(\\frac{5}{6} + \\frac{2}{3}\\)?",
+    answer: "\\(\\frac{7}{6}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 6 and 3 is 6.<br>Write \\(\\frac{2}{3} = \\frac{4}{6}\\).<br>Now add: \\(\\frac{5}{6} + \\frac{4}{6} = \\frac{9}{6} = \\frac{7}{6}\\).",
+  },
+  {
+    id: 204,
+    question:
+      "What is the area of a rectangle with a length of 15 cm and a width of 8 cm?",
+    answer: "The area is 120 square centimeters.",
+    solution:
+      "The formula for the area of a rectangle is \\(A = \text{Length} \times \text{Width}\\).<br>Substitute \\(\\text{Length} = 15\\) and \\(\\text{Width} = 8\\): \\(A = 15 \times 8 = 120\\).",
+  },
+  {
+    id: 205,
+    question: "What is the least common multiple (LCM) of 9 and 14?",
+    answer: "The LCM is 126.",
+    solution:
+      "The multiples of 9 are \\(9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108, 117, 126, ...\\).<br>The multiples of 14 are \\(14, 28, 42, 56, 70, 84, 98, 112, 126, ...\\).<br>The smallest common multiple is \\(126\\).",
+  },
+  {
+    id: 206,
+    question:
+      "If a car travels 250 miles in 5 hours, what is its average speed?",
+    answer: "The average speed is 50 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 250\\) and \\(\\text{Time} = 5\\): \\(\\frac{250}{5} = 50\\) miles per hour.",
+  },
+  {
+    id: 207,
+    question:
+      "If the average of five numbers is 12 and four of the numbers are 10, 14, 8, and 16, what is the fifth number?",
+    answer: "The fifth number is 12.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 5: \\(12 \times 5 = 60\\).<br>Sum of four numbers: \\(10 + 14 + 8 + 16 = 48\\).<br>Subtract: \\(60 - 48 = 12\\).",
+  },
+  {
+    id: 208,
+    question: "What is the value of \\(5^3\\)?",
+    answer: "\\(5^3 = 125\\)",
+    solution:
+      "The formula for exponents is \\(x^n = x \times x \times ...\\) (\\(n\\) times).<br>Calculate \\(5^3 = 5 \times 5 \times 5 = 125\\).",
+  },
+  {
+    id: 209,
+    question: "Simplify \\(\\frac{24}{32}\\).",
+    answer: "\\(\\frac{3}{4}\\)",
+    solution:
+      "Simplify \\(\\frac{24}{32}\\) by dividing the numerator and denominator by their greatest common divisor (8):<br>\\(\\frac{24 div 8}{32 div 8} = \\frac{3}{4}\\).",
+  },
+  {
+    id: 210,
+    question: "If a circle has a radius of 4 cm, what is its area?",
+    answer: "The area is approximately 50.24 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 4\\): \\(A = pi \times 4^2 = pi \times 16 \\approx 3.14 \times 16 = 50.24\\).",
+  },
+  {
+    id: 211,
+    question: "If \\(2x + 7 = 19\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 6\\)",
+    solution:
+      "Solve for \\(x\\): \\(2x + 7 = 19\\).<br>Subtract 7 from both sides: \\(2x = 12\\).<br>Divide by 2: \\(x = 6\\).",
+  },
+  {
+    id: 212,
+    question: "Simplify \\(5x + 3 - 2x + 8\\).",
+    answer: "The simplified expression is \\(3x + 11\\).",
+    solution:
+      "Combine like terms:<br>\\(5x - 2x = 3x\\).<br>\\(3 + 8 = 11\\).<br>Final expression: \\(3x + 11\\).",
+  },
+  {
+    id: 213,
+    question: "What is the value of \\(\\frac{9}{10} + \\frac{1}{5}\\)?",
+    answer: "\\(\\frac{11}{10}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 10 and 5 is 10.<br>Write \\(\\frac{1}{5} = \\frac{2}{10}\\).<br>Now add: \\(\\frac{9}{10} + \\frac{2}{10} = \\frac{11}{10}\\).",
+  },
+  {
+    id: 214,
+    question: "What is the area of a square with a side length of 8 cm?",
+    answer: "The area is 64 square centimeters.",
+    solution:
+      "The formula for the area of a square is \\(A = \text{Side}^2\\).<br>Substitute \\(\\text{Side} = 8\\): \\(A = 8^2 = 64\\).",
+  },
+  {
+    id: 215,
+    question: "What is the least common multiple (LCM) of 8 and 12?",
+    answer: "The LCM is 24.",
+    solution:
+      "The multiples of 8 are \\(8, 16, 24, 32, 40, ...\\).<br>The multiples of 12 are \\(12, 24, 36, 48, ...\\).<br>The smallest common multiple is \\(24\\).",
+  },
+  {
+    id: 216,
+    question:
+      "If a car travels 150 miles in 3 hours, what is its average speed?",
+    answer: "The average speed is 50 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 150\\) and \\(\\text{Time} = 3\\): \\(\\frac{150}{3} = 50\\) miles per hour.",
+  },
+  {
+    id: 217,
+    question:
+      "If the average of four numbers is 12, and three of the numbers are 8, 15, and 10, what is the fourth number?",
+    answer: "The fourth number is 9.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 4: \\(12 \times 4 = 48\\).<br>Sum of three numbers: \\(8 + 15 + 10 = 33\\).<br>Subtract: \\(48 - 33 = 9\\).",
+  },
+  {
+    id: 218,
+    question: "What is the value of \\(4^2 + 3^2\\)?",
+    answer: "\\(4^2 + 3^2 = 25\\)",
+    solution:
+      "The formula for squaring a number is \\(x^2 = x \times x\\), where \\(x\\) is the base number.<br>Calculate \\(4^2 = 16\\) and \\(3^2 = 9\\).<br>Add: \\(16 + 9 = 25\\).",
+  },
+  {
+    id: 219,
+    question: "Simplify \\(\\frac{48}{60}\\).",
+    answer: "\\(\\frac{4}{5}\\)",
+    solution:
+      "Simplify \\(\\frac{48}{60}\\) by dividing the numerator and denominator by their greatest common divisor (12):<br>\\(\\frac{48 div 12}{60 div 12} = \\frac{4}{5}\\).",
+  },
+  {
+    id: 220,
+    question: "If a circle has a radius of 6 cm, what is its area?",
+    answer: "The area is approximately 113.04 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 6\\): \\(A = pi \times 6^2 = pi \times 36 \\approx 3.14 \times 36 = 113.04\\).",
+  },
+  {
+    id: 221,
+    question: "If \\(4x + 6 = 22\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 4\\)",
+    solution:
+      "Solve for \\(x\\): \\(4x + 6 = 22\\).<br>Subtract 6 from both sides: \\(4x = 16\\).<br>Divide by 4: \\(x = 4\\).",
+  },
+  {
+    id: 222,
+    question: "Simplify \\(7x + 2 - 5x + 9\\).",
+    answer: "The simplified expression is \\(2x + 11\\).",
+    solution:
+      "Combine like terms:<br>\\(7x - 5x = 2x\\).<br>\\(2 + 9 = 11\\).<br>Final expression: \\(2x + 11\\).",
+  },
+  {
+    id: 223,
+    question: "What is the value of \\(\\frac{4}{5} + \\frac{3}{10}\\)?",
+    answer: "\\(\\frac{11}{10}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 5 and 10 is 10.<br>Write \\(\\frac{4}{5} = \\frac{8}{10}\\).<br>Now add: \\(\\frac{8}{10} + \\frac{3}{10} = \\frac{11}{10}\\).",
+  },
+  {
+    id: 224,
+    question:
+      "What is the area of a triangle with a base of 12 units and a height of 5 units?",
+    answer: "The area is 30 square units.",
+    solution:
+      "The formula for the area of a triangle is \\(A = \\frac{1}{2} \times \text{Base} \times \text{Height}\\).<br>Substitute \\(\\text{Base} = 12\\) and \\(\\text{Height} = 5\\): \\(A = \frac{1}{2} \times 12 \times 5 = 30\\).",
+  },
+  {
+    id: 225,
+    question: "What is the least common multiple (LCM) of 6 and 9?",
+    answer: "The LCM is 18.",
+    solution:
+      "The multiples of 6 are \\(6, 12, 18, 24, 30, 36, ...\\).<br>The multiples of 9 are \\(9, 18, 27, 36, 45, ...\\).<br>The smallest common multiple is \\(18\\).",
+  },
+  {
+    id: 226,
+    question:
+      "If a car travels 360 miles in 6 hours, what is its average speed?",
+    answer: "The average speed is 60 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 360\\) and \\(\\text{Time} = 6\\): \\(\\frac{360}{6} = 60\\) miles per hour.",
+  },
+  {
+    id: 227,
+    question:
+      "If the average of six numbers is 8, and five of the numbers are 6, 9, 10, 7, and 5, what is the sixth number?",
+    answer: "The sixth number is 11.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 6: \\(8 \times 6 = 48\\).<br>Sum of five numbers: \\(6 + 9 + 10 + 7 + 5 = 37\\).<br>Subtract: \\(48 - 37 = 11\\).",
+  },
+  {
+    id: 228,
+    question: "What is the value of \\(6^2 + 8^2\\)?",
+    answer: "\\(6^2 + 8^2 = 100\\)",
+    solution:
+      "The formula for squaring a number is \\(x^2 = x \times x\\), where \\(x\\) is the base number.<br>Calculate \\(6^2 = 36\\) and \\(8^2 = 64\\).<br>Add: \\(36 + 64 = 100\\).",
+  },
+  {
+    id: 229,
+    question: "Simplify \\(\\frac{35}{50}\\).",
+    answer: "\\(\\frac{7}{10}\\)",
+    solution:
+      "Simplify \\(\\frac{35}{50}\\) by dividing the numerator and denominator by their greatest common divisor (5):<br>\\(\\frac{35 div 5}{50 div 5} = \\frac{7}{10}\\).",
+  },
+  {
+    id: 230,
+    question: "If a circle has a radius of 9 cm, what is its area?",
+    answer: "The area is approximately 254.47 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 9\\): \\(A = pi \times 9^2 = pi \times 81 \\approx 3.14 \times 81 = 254.47\\).",
+  },
+  {
+    id: 231,
+    question: "If \\(3x - 5 = 16\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 7\\)",
+    solution:
+      "Solve for \\(x\\): \\(3x - 5 = 16\\).<br>Add 5 to both sides: \\(3x = 21\\).<br>Divide by 3: \\(x = 7\\).",
+  },
+  {
+    id: 232,
+    question: "Simplify \\(8x + 4 - 3x + 10\\).",
+    answer: "The simplified expression is \\(5x + 14\\).",
+    solution:
+      "Combine like terms:<br>\\(8x - 3x = 5x\\).<br>\\(4 + 10 = 14\\).<br>Final expression: \\(5x + 14\\).",
+  },
+  {
+    id: 233,
+    question: "What is the value of \\(\\frac{5}{6} + \\frac{2}{3}\\)?",
+    answer: "\\(\\frac{9}{6} = \frac{3}{2}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 6 and 3 is 6.<br>Write \\(\\frac{2}{3} = \\frac{4}{6}\\).<br>Now add: \\(\\frac{5}{6} + \\frac{4}{6} = \\frac{9}{6} = \frac{3}{2}\\).",
+  },
+  {
+    id: 234,
+    question:
+      "What is the area of a rectangle with a length of 14 units and a width of 9 units?",
+    answer: "The area is 126 square units.",
+    solution:
+      "The formula for the area of a rectangle is \\(A = \text{Length} \times \text{Width}\\).<br>Substitute \\(\\text{Length} = 14\\) and \\(\\text{Width} = 9\\): \\(A = 14 \times 9 = 126\\).",
+  },
+  {
+    id: 235,
+    question: "What is the least common multiple (LCM) of 4 and 5?",
+    answer: "The LCM is 20.",
+    solution:
+      "The multiples of 4 are \\(4, 8, 12, 16, 20, 24, ...\\).<br>The multiples of 5 are \\(5, 10, 15, 20, 25, ...\\).<br>The smallest common multiple is \\(20\\).",
+  },
+  {
+    id: 236,
+    question:
+      "If a car travels 250 miles in 5 hours, what is its average speed?",
+    answer: "The average speed is 50 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 250\\) and \\(\\text{Time} = 5\\): \\(\\frac{250}{5} = 50\\) miles per hour.",
+  },
+  {
+    id: 237,
+    question:
+      "If the average of seven numbers is 10, and six of the numbers are 5, 15, 12, 9, 8, and 7, what is the seventh number?",
+    answer: "The seventh number is 24.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 7: \\(10 \times 7 = 70\\).<br>Sum of six numbers: \\(5 + 15 + 12 + 9 + 8 + 7 = 56\\).<br>Subtract: \\(70 - 56 = 24\\).",
+  },
+  {
+    id: 238,
+    question: "What is the value of \\(5^2 + 7^2\\)?",
+    answer: "\\(5^2 + 7^2 = 74\\)",
+    solution:
+      "The formula for squaring a number is \\(x^2 = x \times x\\), where \\(x\\) is the base number.<br>Calculate \\(5^2 = 25\\) and \\(7^2 = 49\\).<br>Add: \\(25 + 49 = 74\\).",
+  },
+  {
+    id: 239,
+    question: "Simplify \\(\\frac{36}{48}\\).",
+    answer: "\\(\\frac{3}{4}\\)",
+    solution:
+      "Simplify \\(\\frac{36}{48}\\) by dividing the numerator and denominator by their greatest common divisor (12):<br>\\(\\frac{36 div 12}{48 div 12} = \\frac{3}{4}\\).",
+  },
+  {
+    id: 240,
+    question: "If a circle has a radius of 12 cm, what is its area?",
+    answer: "The area is approximately 452.39 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 12\\): \\(A = pi \times 12^2 = pi \times 144 \\approx 3.14 \times 144 = 452.39\\).",
+  },
+  {
+    id: 241,
+    question: "If \\(6x + 7 = 19\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 2\\)",
+    solution:
+      "Solve for \\(x\\): \\(6x + 7 = 19\\).<br>Subtract 7 from both sides: \\(6x = 12\\).<br>Divide by 6: \\(x = 2\\).",
+  },
+  {
+    id: 242,
+    question: "Simplify \\(9x + 5 - 4x + 12\\).",
+    answer: "The simplified expression is \\(5x + 17\\).",
+    solution:
+      "Combine like terms:<br>\\(9x - 4x = 5x\\).<br>\\(5 + 12 = 17\\).<br>Final expression: \\(5x + 17\\).",
+  },
+  {
+    id: 243,
+    question: "What is the value of \\(\\frac{7}{10} + \\frac{2}{5}\\)?",
+    answer: "\\(\\frac{9}{10}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 10 and 5 is 10.<br>Write \\(\\frac{2}{5} = \\frac{4}{10}\\).<br>Now add: \\(\\frac{7}{10} + \\frac{4}{10} = \\frac{11}{10} = 1 \\frac{1}{10}\\).",
+  },
+  {
+    id: 244,
+    question:
+      "What is the area of a rectangle with a length of 18 units and a width of 5 units?",
+    answer: "The area is 90 square units.",
+    solution:
+      "The formula for the area of a rectangle is \\(A = \text{Length} \times \text{Width}\\).<br>Substitute \\(\\text{Length} = 18\\) and \\(\\text{Width} = 5\\): \\(A = 18 \times 5 = 90\\).",
+  },
+  {
+    id: 245,
+    question: "What is the least common multiple (LCM) of 8 and 12?",
+    answer: "The LCM is 24.",
+    solution:
+      "The multiples of 8 are \\(8, 16, 24, 32, ...\\).<br>The multiples of 12 are \\(12, 24, 36, 48, ...\\).<br>The smallest common multiple is \\(24\\).",
+  },
+  {
+    id: 246,
+    question:
+      "If a car travels 180 miles in 3 hours, what is its average speed?",
+    answer: "The average speed is 60 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 180\\) and \\(\\text{Time} = 3\\): \\(\\frac{180}{3} = 60\\) miles per hour.",
+  },
+  {
+    id: 247,
+    question:
+      "If the average of eight numbers is 12, and seven of the numbers are 10, 14, 15, 9, 11, 13, 16, what is the eighth number?",
+    answer: "The eighth number is 9.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 8: \\(12 \times 8 = 96\\).<br>Sum of seven numbers: \\(10 + 14 + 15 + 9 + 11 + 13 + 16 = 88\\).<br>Subtract: \\(96 - 88 = 9\\).",
+  },
+  {
+    id: 248,
+    question: "What is the value of \\(4^2 + 6^2\\)?",
+    answer: "\\(4^2 + 6^2 = 52\\)",
+    solution:
+      "The formula for squaring a number is \\(x^2 = x \times x\\), where \\(x\\) is the base number.<br>Calculate \\(4^2 = 16\\) and \\(6^2 = 36\\).<br>Add: \\(16 + 36 = 52\\).",
+  },
+  {
+    id: 249,
+    question: "Simplify \\(\\frac{48}{72}\\).",
+    answer: "\\(\\frac{2}{3}\\)",
+    solution:
+      "Simplify \\(\\frac{48}{72}\\) by dividing the numerator and denominator by their greatest common divisor (24):<br>\\(\\frac{48 div 24}{72 div 24} = \\frac{2}{3}\\).",
+  },
+  {
+    id: 250,
+    question: "If a circle has a radius of 8 cm, what is its area?",
+    answer: "The area is approximately 201.06 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 8\\): \\(A = pi \times 8^2 = pi \times 64 \\approx 3.14 \times 64 = 201.06\\).",
+  },
+
+  {
+    id: 251,
+    question: "If \\(4x + 6 = 22\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 4\\)",
+    solution:
+      "Solve for \\(x\\): \\(4x + 6 = 22\\).<br>Subtract 6 from both sides: \\(4x = 16\\).<br>Divide by 4: \\(x = 4\\).",
+  },
+  {
+    id: 252,
+    question: "Simplify \\(7x + 2 - 3x + 5\\).",
+    answer: "The simplified expression is \\(4x + 7\\).",
+    solution:
+      "Combine like terms:<br>\\(7x - 3x = 4x\\).<br>\\(2 + 5 = 7\\).<br>Final expression: \\(4x + 7\\).",
+  },
+  {
+    id: 253,
+    question: "What is the value of \\(\\frac{9}{10} + \\frac{1}{5}\\)?",
+    answer: "\\(\\frac{11}{10} = 1 \\frac{1}{10}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 10 and 5 is 10.<br>Write \\(\\frac{1}{5} = \\frac{2}{10}\\).<br>Now add: \\(\\frac{9}{10} + \\frac{2}{10} = \\frac{11}{10} = 1 \\frac{1}{10}\\).",
+  },
+  {
+    id: 254,
+    question:
+      "What is the area of a rectangle with a length of 25 units and a width of 4 units?",
+    answer: "The area is 100 square units.",
+    solution:
+      "The formula for the area of a rectangle is \\(A = \text{Length} \times \text{Width}\\).<br>Substitute \\(\\text{Length} = 25\\) and \\(\\text{Width} = 4\\): \\(A = 25 \times 4 = 100\\).",
+  },
+  {
+    id: 255,
+    question: "What is the least common multiple (LCM) of 6 and 9?",
+    answer: "The LCM is 18.",
+    solution:
+      "The multiples of 6 are \\(6, 12, 18, 24, ...\\).<br>The multiples of 9 are \\(9, 18, 27, 36, ...\\).<br>The smallest common multiple is \\(18\\).",
+  },
+  {
+    id: 256,
+    question:
+      "If a car travels 300 miles in 6 hours, what is its average speed?",
+    answer: "The average speed is 50 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 300\\) and \\(\\text{Time} = 6\\): \\(\\frac{300}{6} = 50\\) miles per hour.",
+  },
+  {
+    id: 257,
+    question:
+      "If the average of five numbers is 16, and four of the numbers are 14, 20, 12, and 18, what is the fifth number?",
+    answer: "The fifth number is 22.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 5: \\(16 \times 5 = 80\\).<br>Sum of four numbers: \\(14 + 20 + 12 + 18 = 64\\).<br>Subtract: \\(80 - 64 = 22\\).",
+  },
+  {
+    id: 258,
+    question: "What is the value of \\(3^3 + 4^3\\)?",
+    answer: "\\(3^3 + 4^3 = 27 + 64 = 91\\)",
+    solution:
+      "The formula for cubing a number is \\(x^3 = x \times x \times x\\).<br>Calculate \\(3^3 = 27\\) and \\(4^3 = 64\\).<br>Add: \\(27 + 64 = 91\\).",
+  },
+  {
+    id: 259,
+    question: "Simplify \\(\\frac{56}{72}\\).",
+    answer: "\\(\\frac{7}{9}\\)",
+    solution:
+      "Simplify \\(\\frac{56}{72}\\) by dividing the numerator and denominator by their greatest common divisor (8):<br>\\(\\frac{56 div 8}{72 div 8} = \\frac{7}{9}\\).",
+  },
+  {
+    id: 260,
+    question: "If a circle has a radius of 10 cm, what is its area?",
+    answer: "The area is approximately 314.16 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 10\\): \\(A = pi \times 10^2 = pi \times 100 \\approx 3.14 \times 100 = 314.16\\).",
+  },
+
+  {
+    id: 261,
+    question: "If \\(5x - 8 = 17\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 5\\)",
+    solution:
+      "Solve for \\(x\\): \\(5x - 8 = 17\\).<br>Add 8 to both sides: \\(5x = 25\\).<br>Divide by 5: \\(x = 5\\).",
+  },
+  {
+    id: 262,
+    question: "Simplify \\(8x + 4 - 3x + 9\\).",
+    answer: "The simplified expression is \\(5x + 13\\).",
+    solution:
+      "Combine like terms:<br>\\(8x - 3x = 5x\\).<br>\\(4 + 9 = 13\\).<br>Final expression: \\(5x + 13\\).",
+  },
+  {
+    id: 263,
+    question: "What is the value of \\(\\frac{11}{20} + \\frac{3}{10}\\)?",
+    answer: "\\(\\frac{8}{5} = 1 \\frac{3}{5}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 20 and 10 is 20.<br>Write \\(\\frac{3}{10} = \\frac{6}{20}\\).<br>Now add: \\(\\frac{11}{20} + \\frac{6}{20} = \\frac{17}{20}\\).",
+  },
+  {
+    id: 264,
+    question:
+      "What is the area of a rectangle with a length of 10 units and a width of 15 units?",
+    answer: "The area is 150 square units.",
+    solution:
+      "The formula for the area of a rectangle is \\(A = \text{Length} \times \text{Width}\\).<br>Substitute \\(\\text{Length} = 10\\) and \\(\\text{Width} = 15\\): \\(A = 10 \times 15 = 150\\).",
+  },
+  {
+    id: 265,
+    question: "What is the least common multiple (LCM) of 4 and 6?",
+    answer: "The LCM is 12.",
+    solution:
+      "The multiples of 4 are \\(4, 8, 12, 16, ...\\).<br>The multiples of 6 are \\(6, 12, 18, 24, ...\\).<br>The smallest common multiple is \\(12\\).",
+  },
+  {
+    id: 266,
+    question:
+      "If a car travels 150 miles in 3 hours, what is its average speed?",
+    answer: "The average speed is 50 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 150\\) and \\(\\text{Time} = 3\\): \\(\\frac{150}{3} = 50\\) miles per hour.",
+  },
+  {
+    id: 267,
+    question:
+      "If the average of six numbers is 14, and five of the numbers are 12, 16, 10, 18, and 20, what is the sixth number?",
+    answer: "The sixth number is 8.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 6: \\(14 \times 6 = 84\\).<br>Sum of five numbers: \\(12 + 16 + 10 + 18 + 20 = 76\\).<br>Subtract: \\(84 - 76 = 8\\).",
+  },
+  {
+    id: 268,
+    question: "What is the value of \\(2^4 + 3^4\\)?",
+    answer: "\\(2^4 + 3^4 = 16 + 81 = 97\\)",
+    solution:
+      "The formula for raising a number to a power is \\(x^n = x \times x \times x \times cdots\\).<br>Calculate \\(2^4 = 16\\) and \\(3^4 = 81\\).<br>Add: \\(16 + 81 = 97\\).",
+  },
+  {
+    id: 269,
+    question: "Simplify \\(\\frac{42}{63}\\).",
+    answer: "\\(\\frac{2}{3}\\)",
+    solution:
+      "Simplify \\(\\frac{42}{63}\\) by dividing the numerator and denominator by their greatest common divisor (21):<br>\\(\\frac{42 div 21}{63 div 21} = \\frac{2}{3}\\).",
+  },
+  {
+    id: 270,
+    question: "If a circle has a radius of 12 cm, what is its area?",
+    answer: "The area is approximately 452.39 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 12\\): \\(A = pi \times 12^2 = pi \times 144 \\approx 3.14 \times 144 = 452.39\\).",
+  },
+  {
+    id: 271,
+    question: "If \\(2x + 5 = 13\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 4\\)",
+    solution:
+      "Solve for \\(x\\): \\(2x + 5 = 13\\).<br>Subtract 5 from both sides: \\(2x = 8\\).<br>Divide by 2: \\(x = 4\\).",
+  },
+  {
+    id: 272,
+    question: "Simplify \\(9x - 4 + 3x + 7\\).",
+    answer: "The simplified expression is \\(12x + 3\\).",
+    solution:
+      "Combine like terms:<br>\\(9x + 3x = 12x\\).<br>\\(-4 + 7 = 3\\).<br>Final expression: \\(12x + 3\\).",
+  },
+  {
+    id: 273,
+    question: "What is the value of \\(\\frac{7}{12} + \\frac{5}{8}\\)?",
+    answer: "\\(\\frac{61}{48}\\) or \\(1 \\frac{13}{48}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 12 and 8 is 24.<br>Write \\(\\frac{7}{12} = \\frac{14}{24}\\) and \\(\\frac{5}{8} = \\frac{15}{24}\\).<br>Now add: \\(\\frac{14}{24} + \\frac{15}{24} = \\frac{29}{24} = 1 \\frac{5}{24}\\).",
+  },
+  {
+    id: 274,
+    question:
+      "What is the area of a triangle with a base of 16 units and a height of 10 units?",
+    answer: "The area is 80 square units.",
+    solution:
+      "The formula for the area of a triangle is \\(A = \frac{1}{2} \times \text{Base} \times \text{Height}\\).<br>Substitute \\(\\text{Base} = 16\\) and \\(\\text{Height} = 10\\): \\(A = \frac{1}{2} \times 16 \times 10 = 80\\).",
+  },
+  {
+    id: 275,
+    question: "What is the least common multiple (LCM) of 8 and 12?",
+    answer: "The LCM is 24.",
+    solution:
+      "The multiples of 8 are \\(8, 16, 24, 32, ...\\).<br>The multiples of 12 are \\(12, 24, 36, 48, ...\\).<br>The smallest common multiple is \\(24\\).",
+  },
+  {
+    id: 276,
+    question:
+      "If a car travels 180 miles in 4 hours, what is its average speed?",
+    answer: "The average speed is 45 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 180\\) and \\(\\text{Time} = 4\\): \\(\\frac{180}{4} = 45\\) miles per hour.",
+  },
+  {
+    id: 277,
+    question:
+      "If the average of seven numbers is 20, and six of the numbers are 18, 24, 16, 22, 20, and 26, what is the seventh number?",
+    answer: "The seventh number is 14.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 7: \\(20 \times 7 = 140\\).<br>Sum of six numbers: \\(18 + 24 + 16 + 22 + 20 + 26 = 126\\).<br>Subtract: \\(140 - 126 = 14\\).",
+  },
+  {
+    id: 278,
+    question: "What is the value of \\(4^3 + 5^3\\)?",
+    answer: "\\(4^3 + 5^3 = 64 + 125 = 189\\)",
+    solution:
+      "The formula for cubing a number is \\(x^3 = x \times x \times x\\).<br>Calculate \\(4^3 = 64\\) and \\(5^3 = 125\\).<br>Add: \\(64 + 125 = 189\\).",
+  },
+  {
+    id: 279,
+    question: "Simplify \\(\\frac{56}{84}\\).",
+    answer: "\\(\\frac{2}{3}\\)",
+    solution:
+      "Simplify \\(\\frac{56}{84}\\) by dividing the numerator and denominator by their greatest common divisor (28):<br>\\(\\frac{56 div 28}{84 div 28} = \\frac{2}{3}\\).",
+  },
+  {
+    id: 280,
+    question: "If a circle has a radius of 8 cm, what is its area?",
+    answer: "The area is approximately 201.06 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 8\\): \\(A = pi \times 8^2 = pi \times 64 \\approx 3.14 \times 64 = 201.06\\).",
+  },
+
+  {
+    id: 281,
+    question: "If \\(3x + 7 = 22\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 5\\)",
+    solution:
+      "Solve for \\(x\\): \\(3x + 7 = 22\\).<br>Subtract 7 from both sides: \\(3x = 15\\).<br>Divide by 3: \\(x = 5\\).",
+  },
+  {
+    id: 282,
+    question: "Simplify \\(10x - 6 + 2x + 5\\).",
+    answer: "The simplified expression is \\(12x - 1\\).",
+    solution:
+      "Combine like terms:<br>\\(10x + 2x = 12x\\).<br>\\(-6 + 5 = -1\\).<br>Final expression: \\(12x - 1\\).",
+  },
+  {
+    id: 283,
+    question: "What is the value of \\(\\frac{5}{9} + \\frac{7}{18}\\)?",
+    answer: "\\(\\frac{19}{18} = 1 \\frac{1}{18}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 9 and 18 is 18.<br>Write \\(\\frac{5}{9} = \\frac{10}{18}\\).<br>Now add: \\(\\frac{10}{18} + \\frac{7}{18} = \\frac{17}{18}\\).",
+  },
+  {
+    id: 284,
+    question:
+      "What is the area of a rectangle with a length of 12 units and a width of 8 units?",
+    answer: "The area is 96 square units.",
+    solution:
+      "The formula for the area of a rectangle is \\(A = \text{Length} \times \text{Width}\\).<br>Substitute \\(\\text{Length} = 12\\) and \\(\\text{Width} = 8\\): \\(A = 12 \times 8 = 96\\).",
+  },
+  {
+    id: 285,
+    question: "What is the least common multiple (LCM) of 6 and 9?",
+    answer: "The LCM is 18.",
+    solution:
+      "The multiples of 6 are \\(6, 12, 18, 24, ...\\).<br>The multiples of 9 are \\(9, 18, 27, 36, ...\\).<br>The smallest common multiple is \\(18\\).",
+  },
+  {
+    id: 286,
+    question:
+      "If a car travels 200 miles in 4 hours, what is its average speed?",
+    answer: "The average speed is 50 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 200\\) and \\(\\text{Time} = 4\\): \\(\\frac{200}{4} = 50\\) miles per hour.",
+  },
+  {
+    id: 287,
+    question:
+      "If the average of eight numbers is 16, and seven of the numbers are 12, 18, 20, 14, 16, 19, and 15, what is the eighth number?",
+    answer: "The eighth number is 13.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 8: \\(16 \times 8 = 128\\).<br>Sum of seven numbers: \\(12 + 18 + 20 + 14 + 16 + 19 + 15 = 114\\).<br>Subtract: \\(128 - 114 = 13\\).",
+  },
+  {
+    id: 288,
+    question: "What is the value of \\(5^3 + 6^3\\)?",
+    answer: "\\(5^3 + 6^3 = 125 + 216 = 341\\)",
+    solution:
+      "The formula for cubing a number is \\(x^3 = x \times x \times x\\).<br>Calculate \\(5^3 = 125\\) and \\(6^3 = 216\\).<br>Add: \\(125 + 216 = 341\\).",
+  },
+  {
+    id: 289,
+    question: "Simplify \\(\\frac{24}{36}\\).",
+    answer: "\\(\\frac{2}{3}\\)",
+    solution:
+      "Simplify \\(\\frac{24}{36}\\) by dividing the numerator and denominator by their greatest common divisor (12):<br>\\(\\frac{24 div 12}{36 div 12} = \\frac{2}{3}\\).",
+  },
+  {
+    id: 290,
+    question: "If a circle has a radius of 6 cm, what is its area?",
+    answer: "The area is approximately 113.10 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 6\\): \\(A = pi \times 6^2 = pi \times 36 \\approx 3.14 \times 36 = 113.10\\).",
+  },
+  {
+    id: 291,
+    question: "If \\(4x - 8 = 16\\), what is the value of \\(x\\)?",
+    answer: "\\(x = 6\\)",
+    solution:
+      "Solve for \\(x\\): \\(4x - 8 = 16\\).<br> Add 8 to both sides: \\(4x = 24\\).<br> Divide by 4: \\(x = 6\\).",
+  },
+  {
+    id: 292,
+    question: "Simplify \\(15x + 8 - 5x + 10\\).",
+    answer: "The simplified expression is \\(10x + 18\\).",
+    solution:
+      "Combine like terms:<br>\\(15x - 5x = 10x\\).<br>\\(8 + 10 = 18\\).<br>Final expression: \\(10x + 18\\).",
+  },
+  {
+    id: 293,
+    question: "What is the value of \\(\\frac{2}{5} + \\frac{4}{7}\\)?",
+    answer: "\\(\\frac{38}{35}\\) or \\(1 \\frac{3}{35}\\)",
+    solution:
+      "To add fractions, find a common denominator.<br>The least common denominator between 5 and 7 is 35.<br>Write \\(\\frac{2}{5} = \\frac{14}{35}\\) and \\(\\frac{4}{7} = \\frac{20}{35}\\).<br>Now add: \\(\\frac{14}{35} + \\frac{20}{35} = \\frac{34}{35}\\).",
+  },
+  {
+    id: 294,
+    question: "What is the area of a square with a side length of 9 units?",
+    answer: "The area is 81 square units.",
+    solution:
+      "The formula for the area of a square is \\(A = \text{Side}^2\\), where \\(A\\) is the area and \\(\\text{Side}\\) is the side length.<br>Substitute \\(\\text{Side} = 9\\): \\(A = 9^2 = 81\\).",
+  },
+  {
+    id: 295,
+    question: "What is the least common multiple (LCM) of 10 and 15?",
+    answer: "The LCM is 30.",
+    solution:
+      "The multiples of 10 are \\(10, 20, 30, 40, ...\\).<br>The multiples of 15 are \\(15, 30, 45, 60, ...\\).<br>The smallest common multiple is \\(30\\).",
+  },
+  {
+    id: 296,
+    question:
+      "If a car travels 240 miles in 5 hours, what is its average speed?",
+    answer: "The average speed is 48 miles per hour.",
+    solution:
+      "The formula for speed is \\(\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}\\).<br>Substitute \\(\\text{Distance} = 240\\) and \\(\\text{Time} = 5\\): \\(\\frac{240}{5} = 48\\) miles per hour.",
+  },
+  {
+    id: 297,
+    question:
+      "If the average of 10 numbers is 18, and 9 of the numbers are 15, 20, 18, 19, 17, 16, 22, 14, 21, what is the 10th number?",
+    answer: "The 10th number is 12.",
+    solution:
+      "The formula for the average is \\(\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\\).<br>Multiply the average by 10: \\(18 \times 10 = 180\\).<br>Sum of the 9 numbers: \\(15 + 20 + 18 + 19 + 17 + 16 + 22 + 14 + 21 = 172\\).<br>Subtract: \\(180 - 172 = 12\\).",
+  },
+  {
+    id: 298,
+    question: "What is the value of \\(6^3 + 7^3\\)?",
+    answer: "\\(6^3 + 7^3 = 216 + 343 = 559\\)",
+    solution:
+      "The formula for cubing a number is \\(x^3 = x \times x \times x\\).<br>Calculate \\(6^3 = 216\\) and \\(7^3 = 343\\).<br>Add: \\(216 + 343 = 559\\).",
+  },
+  {
+    id: 299,
+    question: "Simplify \\(\\frac{36}{54}\\).",
+    answer: "\\(\\frac{2}{3}\\)",
+    solution:
+      "Simplify \\(\\frac{36}{54}\\) by dividing the numerator and denominator by their greatest common divisor (18):<br>\\(\\frac{36 div 18}{54 div 18} = \\frac{2}{3}\\).",
+  },
+  {
+    id: 300,
+    question: "If a circle has a radius of 5 cm, what is its area?",
+    answer: "The area is approximately 78.54 square centimeters.",
+    solution:
+      "The formula for the area of a circle is \\(A = pi r^2\\), where \\(r\\) is the radius.<br>Substitute \\(r = 5\\): \\(A = pi \times 5^2 = pi \times 25 \\approx 3.14 \times 25 = 78.54\\).",
+  },
 ];
 
 let flashCard_no = 0;
